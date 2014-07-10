@@ -15,13 +15,7 @@
 #
 $(call inherit-product, device/sony/aoba/full_aoba.mk)
 
-# Inherit CM common GSM stuff.
-$(call inherit-product, vendor/carbon/config/common_gsm.mk)
-
-# Enhanced NFC
-#$(call inherit-product, vendor/carbon/config/nfc_enhanced.mk)
-
-# Inherit CM common Phone stuff.
+# Inherit Carbon common Phone stuff.
 $(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 # Boot Animation
